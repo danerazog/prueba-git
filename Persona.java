@@ -1,24 +1,24 @@
 public class Persona {
-    private long codigo;
-	private String nombre;
+    protected long codigo;
+	protected String nombre;
 	
 	public Persona(){
 		
 	}
 	
-	private void setCodigo(long codigo){
+	public void setCodigo(long codigo){
 		this.codigo = codigo;
 	}
 	
-	private void setNombre(String nombre){
+	public void setNombre(String nombre){
 		this.nombre = nombre;
 	}
 	
-	private long getCodigo(){
+	public long getCodigo(){
 		return this.codigo;
 	}
 	
-	private String getNombre(){
+	public String getNombre(){
 		return this.nombre;
 	}
 }
